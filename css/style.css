@@ -1,0 +1,104 @@
+.main-foto {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url("fondo.jpg");
+    background-size: contain;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px #fff solid;
+}
+
+h3 {
+    color: blanchedalmond;
+    text-align: center;
+    font-family: roboto;
+    font-size: 30px;
+}
+
+h2 {
+    color: blanchedalmond;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-family: 'lobster', cursive;
+}
+
+#img {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+a {
+    color: beige;
+}
+
+footer {
+    background-color: #2E4053;
+    height: auto;
+    text-align: center;
+}
+
+.servicios {
+    height: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-size: contain;
+    justify-items: auto;
+    justify-content: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    color: antiquewhite;
+}
+
+#primera {
+    padding-left: 300px;
+}
+
+#tercera {
+    padding-right: 300px;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+#ubicacion iframe {
+    width: 100%;
+    height: 300px;
+}
+
+i {
+    color: aliceblue;
+}
+
+@media (max-width: 734px) {
+    p {
+        font-size: 12px;
+    }
+    .servicios {
+        height: 440px;
+    }
+    #barra {}
+}
